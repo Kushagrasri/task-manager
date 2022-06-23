@@ -1,7 +1,7 @@
 
 const mongoose =require('mongoose')
 
-mongoose.connect(process.env.MONGODB_URL,{
+mongoose.connect('mongodb+srv://kush:kush@cluster0.vzehn.mongodb.net/?retryWrites=true&w=majority',{
     useNewUrlParser: true,
     useUnifiedTopology : true,
     useCreateIndex : true,
